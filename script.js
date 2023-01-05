@@ -1,4 +1,4 @@
-const quoteText = document.querySelector("quote"),
+const quoteText = document.querySelector("quote");
 quoteBtn = document.querySelector("button");
 
 function randomQuote() {
