@@ -80,6 +80,7 @@ h1 {
 .quote-area .quote {
   font-size: 1.3rem;
   text-align: center;
+  color: var(--font-color);
 }
 
 .quote-area i {
@@ -158,4 +159,14 @@ h1 {
   border-radius: 30px;
   cursor: pointer;
   font-style: 16px;
+}
+
+.features button:active {
+  background-color: #222831;
+}
+
+.features button:hover {
+  box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.521);
+  border: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
 }
