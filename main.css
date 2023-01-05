@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;600&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  font-family: 'Anybody', cursive;
+}
+
+h1 {
+  font-weight: 600;
+  color: var(--heading-color);
+  text-shadow: 1px 1px 5px #dddddd3f;
+}
+
+:root {
+  --background-color: #222831;
+  --font-color: #DDDDDD;
+  --heading-color: #F05454;
+  --wrapper-background: #30475E;
+}
+
+.fa-sharp {
+  color: var(--font-color);
+  font-size: 2.5rem;
+}
+
+.wrapper {
+  width: 605px;
+  background: var(--wrapper-background);
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.445);
+  border: 2px solid #f0545436;
+}
