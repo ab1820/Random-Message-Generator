@@ -47,7 +47,7 @@ function randomQuote() {
 
 <hr>
 
-# Live Site URL: 
+# Live Site URL: https://ab1820.github.io/Random-Quote-Generator/
 
 
 <hr>
