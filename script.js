@@ -3,7 +3,9 @@ const authorName = document.querySelector(".author .name");
 const quoteBtn = document.querySelector("button");
 const shareBtn = document.querySelector(".share"); //linkedin share
 const copyBtn = document.querySelector(".copy"); //copy quote share
+const tweetBtn = document.querySelector(".tweet"); //twitter share
 
+//Random Quote Generator Function
 function randomQuote() {
   quoteBtn.classList.add("loading");
   quoteBtn.innerText = "Loading Quote...";
@@ -26,6 +28,11 @@ copyBtn.addEventListener("click", () => {
 
 shareBtn.addEventListener("click", () => {
   const Url = `https://linkedin.com/feed/?shareActive=${quoteText.innerText}`;
+  window.open(Url, "_blank");
+});
+
+tweetBtn.addEventListener("click", () => {
+  const Url = `https://twitter.com/intent/tweet?url=${quoteText.innerText}`;
   window.open(Url, "_blank");
 });
 
